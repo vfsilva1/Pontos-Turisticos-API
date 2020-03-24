@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b0c030a-7b06-42b2-800b-09ef04cb5441" name="Default Changelist" comment="" />
+    <list default="true" id="4b0c030a-7b06-42b2-800b-09ef04cb5441" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enderecos/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enderecos/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enderecos/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atracoes/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/atracoes/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atracoes/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/atracoes/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atracoes/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/atracoes/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliacoes/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/avaliacoes/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliacoes/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/avaliacoes/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avaliacoes/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/avaliacoes/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comentarios/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/comentarios/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comentarios/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/comentarios/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comentarios/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/comentarios/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0002_auto_20200320_1512.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0003_pontoturistico_atracoes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0004_auto_20200320_1700.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0005_pontoturistico_endereco.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/migrations/0006_auto_20200323_1251.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/enderecos/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/migrations/0002_auto_20200320_1732.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/migrations/0003_auto_20200320_1740.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/migrations/0004_auto_20200323_1229.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/migrations/0005_endereco_estado.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/migrations/0006_auto_20200323_1255.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enderecos/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/enderecos/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pontos_turisticos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,23 +47,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZOaADORc0eDbziavKzQCRCFw8H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/avaliacoes" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/enderecos" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/enderecos" />
       <recent name="$PROJECT_DIR$/avaliacoes" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.makemigrations">
+  <component name="RunManager" selected="Python.migrate">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="pontos_turisticos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,26 +219,30 @@
       <screen x="0" y="339" width="1366" height="683" />
     </state>
     <state x="141" y="339" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1584716230640" />
+    <state x="224" y="339" width="907" height="683" key="CommitChangelistDialog2" timestamp="1585055987129">
+      <screen x="0" y="339" width="1366" height="683" />
+    </state>
+    <state x="224" y="339" width="907" height="683" key="CommitChangelistDialog2/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1585055987129" />
     <state x="466" y="438" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584712561159">
       <screen x="0" y="339" width="1366" height="683" />
     </state>
     <state x="466" y="438" width="424" height="491" key="FileChooserDialogImpl/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1584712561159" />
-    <state width="1343" height="-12" key="GridCell.Tab.0.bottom" timestamp="1584968864122">
+    <state width="1343" height="120" key="GridCell.Tab.0.bottom" timestamp="1585049011955">
       <screen x="0" y="339" width="1366" height="683" />
     </state>
-    <state width="1343" height="-12" key="GridCell.Tab.0.bottom/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1584968864122" />
-    <state width="1343" height="-12" key="GridCell.Tab.0.center" timestamp="1584968864122">
+    <state width="1343" height="120" key="GridCell.Tab.0.bottom/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1585049011955" />
+    <state width="1343" height="120" key="GridCell.Tab.0.center" timestamp="1585049011955">
       <screen x="0" y="339" width="1366" height="683" />
     </state>
-    <state width="1343" height="-12" key="GridCell.Tab.0.center/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1584968864122" />
-    <state width="1343" height="-12" key="GridCell.Tab.0.left" timestamp="1584968864122">
+    <state width="1343" height="120" key="GridCell.Tab.0.center/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1585049011955" />
+    <state width="1343" height="120" key="GridCell.Tab.0.left" timestamp="1585049011954">
       <screen x="0" y="339" width="1366" height="683" />
     </state>
-    <state width="1343" height="-12" key="GridCell.Tab.0.left/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1584968864122" />
-    <state width="1343" height="-12" key="GridCell.Tab.0.right" timestamp="1584968864122">
+    <state width="1343" height="120" key="GridCell.Tab.0.left/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1585049011954" />
+    <state width="1343" height="120" key="GridCell.Tab.0.right" timestamp="1585049011955">
       <screen x="0" y="339" width="1366" height="683" />
     </state>
-    <state width="1343" height="-12" key="GridCell.Tab.0.right/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1584968864122" />
+    <state width="1343" height="120" key="GridCell.Tab.0.right/0.339.1366.683/1366.0.1920.1080@0.339.1366.683" timestamp="1585049011955" />
     <state x="164" y="339" width="1027" height="683" key="SettingsEditor" timestamp="1584715517239">
       <screen x="0" y="339" width="1366" height="683" />
     </state>
