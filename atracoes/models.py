@@ -5,6 +5,7 @@ class Atracao(models.Model):
     Descricao = models.TextField()
     HorarioFuncionamento = models.TextField()
     IdadeMinima = models.IntegerField()
+    Foto = models.ImageField(upload_to='atracoes', null=True, blank=True)
 
     def __str__(self):
         return self.Nome
