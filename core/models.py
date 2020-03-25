@@ -13,8 +13,12 @@ class PontoTuristico(models.Model):
     Atracoes = models.ManyToManyField(Atracao)
     Comentarios = models.ManyToManyField(Comentario)
     Avaliacoes = models.ManyToManyField(Avaliacao)
-    Endereco = models.ForeignKey(Endereco, on_delete=models.CASCADE, null=True, blank=True)
+    Enderecos = models.ForeignKey(Endereco, on_delete=models.CASCADE, null=True, blank=True)
     Foto = models.ImageField(upload_to='pontosturisticos', null=True, blank=True)
+
+    @property
+    def descricao_completa2(self):
+        return "%s - %s" % (self.Nome, self.Descricao)
 
     def __str__(self):
         return self.Nome
