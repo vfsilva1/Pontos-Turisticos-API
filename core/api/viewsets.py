@@ -1,5 +1,6 @@
 from rest_framework import viewsets
 from rest_framework.decorators import action
+from rest_framework.filters import SearchFilter
 from rest_framework.response import Response
 
 from core.models import PontoTuristico
@@ -10,6 +11,9 @@ class PontoTuristicoViewSet(viewsets.ModelViewSet):
     A simple ViewSet for viewing and editing accounts.
     """
     serializer_class = PontoTuristicoSerializer
+    filter_backends = (SearchFilter,)
+    search_fields = {'Nome', 'Descricao', 'Endereco__linha1'}
+    lookup_field = 'Nome'
 
     def get_queryset(self):
         id = self.request.query_params.get('id', None)
