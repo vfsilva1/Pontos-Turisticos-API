@@ -8,9 +8,8 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
 """
 
 import os
-from dj_static import Cling
 from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pontos_turisticos.settings')
 
-application = Cling(get_asgi_application())
+application = get_asgi_application()
