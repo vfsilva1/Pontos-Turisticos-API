@@ -20,7 +20,7 @@ class PontoTuristicoViewSet(ModelViewSet):
     lookup_field = 'id'
 
     def get_queryset(self):
-        id = self.request.query_params.get('id', None
+        id = self.request.query_params.get('id', None)
         nome = self.request.query_params.get('Nome', None)
         descricao = self.request.query_params.get('Descricao', None)
         queryset = PontoTuristico.objects.all()

@@ -30,7 +30,7 @@ router = routers.DefaultRouter()
 router.register(r'pontosturisticos', PontoTuristicoViewSet, basename='PontoTuristico')
 router.register(r'atracoes', AtracaoViewSet)
 router.register(r'enderecos', EnderecoViewSet)
-router.register(r'avaliacoes', AvaliacaoViewSet)
+router.register(r'avaliacoes', AvaliacaoViewSet)xxxxx
 router.register(r'comentarios', ComentarioViewSet)
 
 urlpatterns = [
