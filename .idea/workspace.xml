@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b0c030a-7b06-42b2-800b-09ef04cb5441" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comentarios/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comentarios/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comentarios/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_turisticos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api/viewsets.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,8 +166,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.migrate" />
       <item itemvalue="Python.makemigrations" />
+      <item itemvalue="Python.migrate" />
       <item itemvalue="Python.runserver" />
     </list>
   </component>

@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.decorators import action
 from rest_framework.filters import SearchFilter
-from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import ModelViewSet
 
 from core.models import PontoTuristico
@@ -20,7 +20,7 @@ class PontoTuristicoViewSet(ModelViewSet):
     lookup_field = 'id'
 
     def get_queryset(self):
-        id = self.request.query_params.get('id', None)
+        id = self.request.query_params.get('id', None
         nome = self.request.query_params.get('Nome', None)
         descricao = self.request.query_params.get('Descricao', None)
         queryset = PontoTuristico.objects.all()
